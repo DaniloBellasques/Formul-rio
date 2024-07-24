@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <strong><h1>Cadastro da Liga dos Programadores</h1></strong>
+   Nome: <input type="text" name="nome" placeholder="Digite seu nome">
+
+   <p>Email: <input type="email" name="email" placeholder="Digite seu e-mail"> - Senha <input type="password" name="senha" placeholder="Digite sua senha"></p>
+
+   <p>Data de Nascimento: <input type="date" name="data"> - Foto: <input type="file"></p>
+
+   <form action="/action_page.php">
+    <label for="nacionalidade">Nacionalidade:</label>
+    <select id="nacionalidade" name="nacionalidade">
+      <option value="Brasileiro">Brasileiro</option>
+      <option value="Francês">Francês</option>
+    </select> - Gênero <input type="radio" name="genero" value="masculino"> Masculino
+
+    <input type="radio" name="genero" value="feminino"> Feminino
+
+    <p>Linguagem que você domina:</p>
+    <input type="checkbox" id="myCheckbox" name="myCheckbox">
+    <label for="myCheckbox">JavaScript</label> 
+    <input type="checkbox" id="myCheckbox" name="myCheckbox">
+    <label for="myCheckbox">Python</label> 
+    <input type="checkbox" id="myCheckbox" name="myCheckbox">
+    <label for="myCheckbox">C</label> 
+    <input type="checkbox" id="myCheckbox" name="myCheckbox">
+    <label for="myCheckbox">Java</label> 
+    
+    
+
+    <p><textarea name="message" rows="10" cols="30">Por que você quer ser um programador?</textarea></p>
+        <input type="Submit" value="Enviar">
+    
+       
+</form>
+</body>
+</html>
